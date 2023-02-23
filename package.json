@@ -17,6 +17,14 @@
   "devDependencies": {
     "react-scripts": "5.0.1"
   },
+  "optimization": {
+    "scripts": true,
+    "styles": {
+       "minify": false,
+       "inlineCritical": false
+    },
+    "fonts": true
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
