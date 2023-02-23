@@ -1,0 +1,23 @@
+ .btn {
+  font: inherit;
+  cursor: pointer;
+  background-color: #062e8a;
+  border: 1px solid #062e8a;
+  color: white;
+  padding: 0.25rem 2rem;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+ .btn:hover,
+ .btn:active {
+  background-color: #230364;
+  border-color: #230364;
+}
+/* .input {
+  font: inherit;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 20rem;
+  max-width: 100%;
+} */

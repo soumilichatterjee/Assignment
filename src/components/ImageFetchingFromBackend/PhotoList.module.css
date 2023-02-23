@@ -1,0 +1,14 @@
+.img {
+  margin-top: 20px;
+  width: 30%;
+  height: 25rem;
+  z-index: 0;
+  overflow: hidden;
+}
+
+ .img {
+  width: 30%;
+  height: 30%;
+  object-fit: cover;
+  /* transform: rotateZ(-5deg) translateY(-4rem) translateX(-1rem); */
+}
