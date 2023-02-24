@@ -47,7 +47,7 @@ const UploadPhoto = () => {
 
   return (
     <div>
-      <input className={classes.input} type="file" onChange={handleChange} />
+      <input className={classes.input} type="file" onChange={handleChange}  />
       <button className={classes.btn} onClick={handleUpload}>Upload</button>
       {error && <div>{error}</div>}
       {progress > 0 && <div>{progress}% uploaded</div>}

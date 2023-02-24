@@ -23,10 +23,12 @@ const PhotoList = () => {
   }, []);
 
   return (
-    <div >
+    <div className={classes.row}>
+    <div className={classes.column} >
       {photos.map((photo) => (
         <img className={classes.img} key={photo.id} src={photo.downloadURL} alt={photo.id} />
       ))}
+    </div>
     </div>
   );
 };

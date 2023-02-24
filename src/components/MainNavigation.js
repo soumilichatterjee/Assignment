@@ -1,8 +1,8 @@
 import { NavLink } from "react-router-dom";
 import classes from "./MainNavigation.module.css";
-
 function MainNavigation() {
   return (
+    <div className={classes.navbar}>
     <header className={classes.header}>
       <nav>
         <ul className={classes.list}>
@@ -15,7 +15,7 @@ function MainNavigation() {
               // style={({isActive})=>({textAlign:isActive?'center':'left'})}
               end
             >
-              SplashScreen
+              HomeScreen
             </NavLink>
           </li>
 
@@ -68,11 +68,28 @@ function MainNavigation() {
       </li>
       
 
+      <li>
+      <NavLink
+        to="/calculatorscreen"
+        className={({ isActive }) =>
+          isActive ? classes.active : undefined
+        }
+        
+      >
+      CalculatorScreen
+      </NavLink>
+
+
+
+      
+    </li>
+    
       
 
         </ul>
       </nav>
     </header>
+    </div>
   );
 }
 

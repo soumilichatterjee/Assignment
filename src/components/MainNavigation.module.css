@@ -13,11 +13,15 @@
 
 .list a {
   text-decoration: none;
-  color: #fab833;
+  color: white;
 }
 
 .list a:hover,
 .list a.active {
-  color: #fab833;
+  color: rgb(118, 254, 254);
   text-decoration: underline;
+}
+
+.navbar{
+  background-color: #003688;
 }

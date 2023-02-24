@@ -1,8 +1,8 @@
  .btn {
   font: inherit;
   cursor: pointer;
-  background-color: #062e8a;
-  border: 1px solid #062e8a;
+  background-color: #003688;
+  border: 1px solid #003688;
   color: white;
   padding: 0.25rem 2rem;
   border-radius: 20px;
@@ -11,8 +11,8 @@
 
  .btn:hover,
  .btn:active {
-  background-color: #230364;
-  border-color: #230364;
+  background-color: #3462a7;
+  border-color: #3f69a8;
 }
 /* .input {
   font: inherit;
