@@ -2,7 +2,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ErrorPage from "./pages/Error";
 import TextScreenPage from "./pages/TextScreen";
 import HomeScreenPage from "./pages/HomeScreen";
-// import ProductsPage from './pages/Products';
+import ButtonScreenPage from "./pages/ButtonScreen";
 import RootLayout from "./pages/Root";
 import PhotoScreenPage from "./pages/PhotoScreen";
 
@@ -18,6 +18,8 @@ const router = createBrowserRouter([
     children: [
       { index: true, element: <HomeScreenPage /> },
       { path: "/authscreen", element: <AuthScreenPage /> },
+
+    {path:"/buttonscreen", element:<ButtonScreenPage/>},
 
       { path: "/photoscreen", element: <PhotoScreenPage /> },
       { path: "/textscreen", element: <TextScreenPage /> },

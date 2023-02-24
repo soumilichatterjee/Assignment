@@ -30,6 +30,17 @@ function MainNavigation() {
       >
       AuthScreen
       </NavLink>
+      </li>
+      <li>
+      <NavLink
+        to="/buttonscreen"
+        className={({ isActive }) =>
+          isActive ? classes.active : undefined
+        }
+        
+      >
+      ButtonScreen
+      </NavLink>
 
 
 
